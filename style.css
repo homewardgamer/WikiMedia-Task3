@@ -1,0 +1,13 @@
+h2{
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+}
+.col-md-9{
+    padding-top: 3%;
+}
+.form-data{
+    margin: auto;
+    /* text-align: center; */
+    border: solid 0.5px rgba(128, 128, 128, 0.5);
+    height: 80%;
+    padding: 5%;
+}

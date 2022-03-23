@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Quote</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-2">
+            <img src="Assets/left_border.png" alt="" srcset="" width="200px">
+        </div>
+        <div class="col-md-9">
+            <div class="header">
+                <h2>Submit quote(s) here!</h2>
+                <hr>
+                <p><img alt=""
+                        src="//upload.wikimedia.org/wikipedia/en/thumb/1/1d/Information_icon4.svg/20px-Information_icon4.svg.png"
+                        decoding="async" width="20" height="20"
+                        srcset="//upload.wikimedia.org/wikipedia/en/thumb/1/1d/Information_icon4.svg/30px-Information_icon4.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/1/1d/Information_icon4.svg/40px-Information_icon4.svg.png 2x"
+                        data-file-width="620" data-file-height="620"> <i>Content that <a
+                            href="/wiki/Wikipedia:Copyright_violations" title="Wikipedia:Copyright violations">violates
+                            any
+                            copyrights</a> will be deleted. Encyclopedic content
+                        must be verifiable through <a href="/wiki/Help:Introduction_to_referencing_with_Wiki_Markup/1"
+                            title="Help:Introduction to referencing with Wiki Markup/1">citations to reliable
+                            sources</a>.</i>
+                </p>
+            </div>
+            <div class="form-data">
+                <!-- <p>Include " " in your quotes.</p> -->
+                <form action="post">
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Add your Quotes here</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <p id="alert"></p>
+                    <br><br>
+                    <button type="button" class="btn btn-primary" onclick="validate() " spellcheck="true">Submit
+                        Quotation</button>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
